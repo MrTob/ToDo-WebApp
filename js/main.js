@@ -14,8 +14,32 @@ const initApp = ()=>{
     todoEntry.addEventListener("submit", (event)=>{
         event.preventDefault();
         precessSub();
-    })
+    });
+
+    const clearTodos = document.getElementById("clearTodos");
+    clearTodos.addEventListener("click", (event)=>{
+        const list = todoList.getList();
+        if(list.length){
+            const confirmed = confirm("Are you sure to clear all?");
+            if(confirmed){
+                todoList.clearList();
+                updatePersistentData(todoList.getList());
+                refreshPage();
+            }
+        }
+    });
+    loadListObject();
     refreshPage();
+};
+
+const loadListObject = () =>{
+    const storedList = localStorage.getItem("todoList");
+    if(typeof storedList !== "string")return;
+    const parseList = JSON.parse(storedList)
+    parseList.forEach(itemObj => {
+        const newTodoItem = createnNewTodo(itemObj.id,itemObj.item);
+        todoList.addItem(newTodoItem);
+    });
 }
 
 const refreshPage = ()=>{
@@ -65,11 +89,17 @@ const buildListItem = (item) =>{
 const clickListenerCheckbox = (checkBox) =>{
     checkBox.addEventListener("click", (event)=>{
         todoList.removeItem(checkBox.id);
+        console.log("rm"+checkBox.id)
+        updatePersistentData(todoList.getList());
         setTimeout(() =>{
             refreshPage();
         },1000)
     })
 };
+
+const updatePersistentData =(listArr)=>{
+    localStorage.setItem("todoList", JSON.stringify(listArr));
+}
 
 const clearTodoEntry=() =>{
     document.getElementById("newTodo").value = '';
@@ -85,7 +115,8 @@ const precessSub =()=>{
 
     const nextTodoId = calcNextTodoId();
     const todo = createnNewTodo(nextTodoId,newTodoText);
-    todoList.adItem(todo);
+    todoList.addItem(todo);
+    updatePersistentData(todoList.getList());
     refreshPage();
 
 }

@@ -11,14 +11,14 @@ export default class ToDoList{
         this.list =[];
     }
 
-    adItem(item){
+    addItem(item){
         this.list.push(item);
     }
 
     removeItem(id){
         const list = this.list;
         for(var i=0; i < list.length;i++){
-            if(list[i]._id == id){
+            if(list[i].id == id){
                 list.splice(i,1);
                 break;
             }
