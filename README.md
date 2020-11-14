@@ -10,7 +10,15 @@
 </p>
 <p align="center">
 <img src="https://picr.eu/images/2020/11/14/2q4lF.gif" alt="drawing" width="200"/>
-<p align="center">
+</p>
+                                                                               
+![GitHub top language](https://img.shields.io/github/languages/top/mrtob/ToDo-WebApp)
+![GitHub issues](https://img.shields.io/github/issues/mrtob/ToDo-WebApp)
+![GitHub](https://img.shields.io/github/license/mrtob/ToDo-WebApp)
+![GitHub Repo stars](https://img.shields.io/github/stars/mrtob/ToDo-WebApp)
+![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fmrtob.github.io%2FToDo-WebApp%2F)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/w/mrtob/ToDo-WebApp)
+                 
 
 ## Table of contents
 
