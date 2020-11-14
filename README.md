@@ -63,3 +63,11 @@ Todo_Webapp/
 |[style.scss](./sass/style.scss)|import font|
 
 
+## Bugs and feature requests
+
+Have a bug or a feature request? Search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/MrTob/ToDo-WebApp/issues/new).
+
+## Copyright and license
+Code and documentation copyright 2020 the author. Code released under the [MIT License](LICENSE.md).
+
+
