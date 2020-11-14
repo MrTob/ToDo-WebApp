@@ -8,15 +8,21 @@
     <a href=https://github.com/MrTob/ToDo-WebApp/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
-
+<center>
+<img src="https://picr.eu/images/2020/11/14/2q4lF.gif" alt="drawing" width="200"/>
+</center>
 
 ## Table of contents
 
-- [Docker](#docker)
+
 - [Demo](#demo)
+- [Docker](#docker)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Copyright and license](#copyright-and-license)
+
+## Demo
+
 
 
 ## Docker
@@ -33,7 +39,6 @@
 * The app should be available on localhost:<port>
 
 
-## Demo
 
 
 
