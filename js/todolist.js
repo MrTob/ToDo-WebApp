@@ -3,6 +3,7 @@ export default class ToDoList{
         this.list=[];
     }
 
+    
     getList(){
         return this.list;
     }
