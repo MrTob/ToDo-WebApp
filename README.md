@@ -15,7 +15,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/mrtob/ToDo-WebApp)
 ![GitHub issues](https://img.shields.io/github/issues/mrtob/ToDo-WebApp)
 ![GitHub](https://img.shields.io/github/license/mrtob/ToDo-WebApp)
-![GitHub Repo stars](https://img.shields.io/github/stars/mrtob/ToDo-WebApp?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/mrtob/ToDo-WebApp)
 ![Website](https://img.shields.io/website?down_color=red&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fmrtob.github.io%2FToDo-WebApp%2F)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/w/mrtob/ToDo-WebApp)
                  
