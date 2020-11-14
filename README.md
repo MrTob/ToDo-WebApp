@@ -49,7 +49,17 @@ Todo_Webapp/
 
 | File | Description |
 |---|---|
-| style.min.css  |   generated file from sass|
-| style.min.css.map   |  generated file from sass |
+|[README.md]()|readme file|
+|[index.html]()|index html file|
+| [style.min.css]()  |   generated file from sass|
+| [style.min.css.map]()   |  generated file from sass |
+|[main.js]()|main javascript file|
+|[todoItem.js]()| TodoItem Object|
+|[todolist.js]()|list of TodoItem Objects|
+|[_base.scss](./sass/_base.scss)|color definition|
+|[_listContainer.scss]()|styling of all the ToDo's|
+|[_newTodoEntry.scss]()|sytling of the newToDo Field|
+|[_sharedClasses.scss]()|button styling|
+|[style.scss]()|import font|
 
 
