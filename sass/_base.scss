@@ -1,12 +1,12 @@
 $default-font-color: #1d3557;
-$background-color: #f1faee;
-$container-bgcolor: #a8dadc;
-$container-bordercolor: #457b9d;
-$texbox-bordercolor: #f1faee;
-$button-textcolor: #e63946;
-$button-hovercolor: #a8dadc;
-$add-button-color: #ffcdb2;
-$clear-button-color:#9bf6ff;
+$background-color: #ffffff;
+$container-bgcolor: #b7e4c7;
+$container-bordercolor: #b7e4c7;
+$texbox-bordercolor: #52b788;
+$button-textcolor: #081c15;
+$button-hovercolor: #40916c;
+$add-button-color: #52b788;
+$clear-button-color:#52b788;
 
 
 @mixin mq($size){
@@ -23,7 +23,7 @@ $clear-button-color:#9bf6ff;
 
 html, body{
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     color: $default-font-color;
     width: 100%;
     min-height: 100%;
