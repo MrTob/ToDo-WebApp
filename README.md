@@ -49,17 +49,17 @@ Todo_Webapp/
 
 | File | Description |
 |---|---|
-|[README.md]()|readme file|
-|[index.html]()|index html file|
-| [style.min.css]()  |   generated file from sass|
-| [style.min.css.map]()   |  generated file from sass |
-|[main.js]()|main javascript file|
-|[todoItem.js]()| TodoItem Object|
-|[todolist.js]()|list of TodoItem Objects|
+|[README.md](./README.md)|readme file|
+|[index.html](./index.html)|index html file|
+|[style.min.css](./dist/css/style.min.css)  |   generated file from sass|
+|[style.min.css.map](./dist/css/style.min.css.map)   |  generated file from sass |
+|[main.js](./js/main.js)|main javascript file|
+|[todoItem.js](./js/todoItem.js)| TodoItem Object|
+|[todolist.js](./js/todolist.js)|list of TodoItem Objects|
 |[_base.scss](./sass/_base.scss)|color definition|
-|[_listContainer.scss]()|styling of all the ToDo's|
-|[_newTodoEntry.scss]()|sytling of the newToDo Field|
-|[_sharedClasses.scss]()|button styling|
-|[style.scss]()|import font|
+|[_listContainer.scss](./sass/_listContainer.scss)|styling of all the ToDo's|
+|[_newTodoEntry.scss](./sass/_newTodoEntry.scss)|sytling of the newToDo Field|
+|[_sharedClasses.scss](./sass/_sharedClasses.scss)|button styling|
+|[style.scss](./sass/style.scss)|import font|
 
 
