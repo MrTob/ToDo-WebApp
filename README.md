@@ -12,11 +12,44 @@
 
 ## Table of contents
 
-- [Quick start](#quick-start)
-- [Status](#status)
+- [Docker](#docker)
+- [Demo](#demo)
 - [What's included](#whats-included)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Creators](#creators)
 - [Thanks](#thanks)
 - [Copyright and license](#copyright-and-license)
+
+
+## Docker
+some text
+
+
+## What's included
+```text
+Todo_Webapp/
+├── dist/                       
+│    └── css/                   
+│         ├── style.min.css     
+│         └── style.min.css.map 
+├──js/                          
+│   ├──main.js
+│   ├──todoItem.js
+│   └──todolist.js
+├──sass/
+│   ├──_base.scss
+│   ├──_listContainer.scss
+│   ├──_newTodoEntry.scss
+│   ├──_sharedClasses.scss
+│   └──style.scss
+├──index.html
+└──README.md
+```
+
+| File | Description |
+|---|---|
+| style.min.css  |   generated file from sass|
+| style.min.css.map   |  generated file from sass |
+
+
