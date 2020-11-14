@@ -79,7 +79,7 @@ const buildListItem = (item) =>{
     clickListenerCheckbox(checkBox)
     const label = document.createElement("label");
     label.htmlFor= item.getId();
-    label.textContent = item.getItem();
+    label.textContent = atob(item.getItem());
     div.appendChild(checkBox);
     div.appendChild(label);
     const container = document.getElementById("listItems");
@@ -89,7 +89,6 @@ const buildListItem = (item) =>{
 const clickListenerCheckbox = (checkBox) =>{
     checkBox.addEventListener("click", (event)=>{
         todoList.removeItem(checkBox.id);
-        console.log("rm"+checkBox.id)
         updatePersistentData(todoList.getList());
         setTimeout(() =>{
             refreshPage();
@@ -114,7 +113,7 @@ const precessSub =()=>{
     if(!newTodoText.length)return;
 
     const nextTodoId = calcNextTodoId();
-    const todo = createnNewTodo(nextTodoId,newTodoText);
+    const todo = createnNewTodo(nextTodoId,btoa(newTodoText));
     todoList.addItem(todo);
     updatePersistentData(todoList.getList());
     refreshPage();
