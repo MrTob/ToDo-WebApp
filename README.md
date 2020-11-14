@@ -49,8 +49,8 @@ Todo_Webapp/
 
 | File | Description |
 |---|---|
-|[README.md](./README.md)|readme file|
-|[index.html](./index.html)|index html file|
+|[README.md](README.md)|readme file|
+|[index.html](index.html)|index html file|
 |[style.min.css](./dist/css/style.min.css)  |   generated file from sass|
 |[style.min.css.map](./dist/css/style.min.css.map)   |  generated file from sass |
 |[main.js](./js/main.js)|main javascript file|
