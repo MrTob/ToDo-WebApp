@@ -8,9 +8,9 @@
     <a href=https://github.com/MrTob/ToDo-WebApp/issues/new?template=feature.md&labels=feature">Request feature</a>
   </p>
 </p>
-<center>
-<img src="https://picr.eu/images/2020/11/14/2q4lF.gif" alt="drawing" width="200" align="center"/>
-</center>
+<p align="center">
+<img src="https://picr.eu/images/2020/11/14/2q4lF.gif" alt="drawing" width="200"/>
+<p align="center">
 
 ## Table of contents
 
