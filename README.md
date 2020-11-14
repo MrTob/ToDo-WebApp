@@ -11,6 +11,7 @@
 <p align="center">
 <img src="https://picr.eu/images/2020/11/14/2q4lF.gif" alt="drawing" width="200"/>
 <p align="center">
+                 [![Coverage Status](https://coveralls.io/repos/github/MrTob/ToDo-WebApp/badge.svg?branch=main)](https://coveralls.io/github/MrTob/ToDo-WebApp?branch=main)
 
 ## Table of contents
 
