@@ -20,7 +20,21 @@
 
 
 ## Docker
-some text
+* Build image
+  ```docker
+  docker build -t <imageName> .
+  ```
+
+* Run Container
+  ```docker
+  docker run --name todoApp -p <port>:80 -d <imageName>
+  ```
+
+* The app should be available on localhost:<port>
+
+
+## Demo
+
 
 
 ## What's included
