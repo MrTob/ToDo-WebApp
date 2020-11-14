@@ -13,6 +13,7 @@
 </p>
                                                                                
 ![GitHub top language](https://img.shields.io/github/languages/top/mrtob/ToDo-WebApp)
+![GitHub issues](https://img.shields.io/github/issues/mrtob/ToDo-WebApp)
                  
 
 ## Table of contents
