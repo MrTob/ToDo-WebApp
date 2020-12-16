@@ -30,7 +30,7 @@
 - [Copyright and license](#copyright-and-license)
 
 ## Demo
-[Click the link to show the demo app](https://mrtob.github.io/ToDo-WebApp/)
+<a href="https://mrtob.github.io/ToDo-WebApp/" target="_blank">Click the link to show the demo app</a>
 
 
 
